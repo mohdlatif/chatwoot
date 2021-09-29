@@ -54,16 +54,6 @@
 <script>
 import { validEmailsByComma } from './helpers/emailHeadHelper';
 export default {
-  props: {
-    ccEmails: {
-      type: String,
-      default: '',
-    },
-    bccEmails: {
-      type: String,
-      default: '',
-    },
-  },
   data() {
     return {
       showBcc: false,

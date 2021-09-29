@@ -470,8 +470,8 @@ export default {
       this.updateUISettings({ display_rich_content_editor: value });
     },
     setCcEmails(value) {
-      this.bccEmails = value['bccEmails'];
-      this.ccEmails = value['ccEmails']
+      this.bccEmails = value.bccEmails;
+      this.ccEmails = value.ccEmails
     }
   },
 };
